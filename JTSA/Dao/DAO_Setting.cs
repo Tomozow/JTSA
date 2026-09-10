@@ -84,6 +84,14 @@ namespace JTSA.Dao
             ChatManagementPanelVisibility = 52,
             /// <summary>チャット読み上げをしないTwitchログイン名（改行区切り）</summary>
             SpeechMutedUserLogins = 53,
+            /// <summary>VTube Studio WebSocket接続URL</summary>
+            VtsWebSocketUrl = 54,
+            /// <summary>VTube Studio プラグイン認証トークン</summary>
+            VtsAuthToken = 55,
+            /// <summary>起動時にVTube Studioへ自動接続するか</summary>
+            VtsAutoConnect = 56,
+            /// <summary>VTSトリガーとコマンドの対応ルール</summary>
+            VtsTriggerRules = 57,
         }
 
 
