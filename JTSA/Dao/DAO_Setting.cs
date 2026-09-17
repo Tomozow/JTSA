@@ -92,6 +92,10 @@ namespace JTSA.Dao
             VtsAutoConnect = 56,
             /// <summary>VTSトリガーとコマンドの対応ルール</summary>
             VtsTriggerRules = 57,
+            /// <summary>チャット読み上げの最大文字数（0は制限なし）</summary>
+            SpeechMaxChars = 58,
+            /// <summary>同じスタンプ名の連続読み上げ上限（0は制限なし）</summary>
+            SpeechMaxSameToken = 59,
         }
 
 
